@@ -1,0 +1,15 @@
+#
+# helix configuration for local development
+#
+version: 1
+
+definitions:
+  defaults:
+    - &defaultRepo "https://github.com/KarthikaRamineni/demo-project.git"
+
+strains:
+  - name: default
+    code: https://github.com/KarthikaRamineni/demo-project.git#master
+    content: https://github.com/KarthikaRamineni/demo-project.git#master
+    static: https://github.com/KarthikaRamineni/demo-project.git/htdocs#master
+    package: 14262-helixdemo-development/c565cdcc5306a21825960579c19a357a97c3fad9
